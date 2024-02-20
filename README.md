@@ -1,4 +1,5 @@
 # LycoS-Unicas-IDS2018
+LycoS-Unicas-IDS2018 official repository, please refer to [https://arxiv.org/abs/2402.10974](https://arxiv.org/abs/2402.10974) for detailed information.
 
 ## Overview
 LycoS-Unicas-IDS2018 is a novel dataset created using [LycoStand](https://lycos-ids.univ-lemans.fr/) [[1]](https://hal.science/hal-03563228/), a feature extractor of raw network traffic on the PCAP files of [CSE-CIC-IDS2018 dataset](https://www.unb.ca/cic/datasets/ids-2018.html). The flows are labeled according to the official attack schedule accessible via the dataset website.
@@ -37,9 +38,20 @@ There are a total of 14 different classes, with 1 class representing normal traf
 ## Download
 The dataset is available at the following [link](https://drive.google.com/file/d/12dQPcqRDJFeJGmqqshzdYN8M5t5tMXbQ/view?usp=sharing).
 
-<!-- ## Citation
+## Citation
 
-If you use the LycoS18 dataset in your research, please cite it using the following BibTeX entry: -->
+If you use the LycoS18 dataset in your research, please cite it using the following BibTeX entry:
+
+```bibtex
+@misc{cantone2024crossdataset,
+      title={On the Cross-Dataset Generalization of Machine Learning for Network Intrusion Detection}, 
+      author={Marco Cantone and Claudio Marrocco and Alessandro Bria},
+      year={2024},
+      eprint={2402.10974},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
+```
 
 ## References
 [1] Rosay, Arnaud, et al. "Network intrusion detection: A comprehensive analysis of CIC-IDS2017." 8th International Conference on Information Systems Security and Privacy. SCITEPRESS-Science and Technology Publications, 2022.
